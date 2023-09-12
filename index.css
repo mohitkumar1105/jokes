@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containers{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+p{
+    font-weight: bold;
+}
+h3{
+    color:rgb(136, 10, 10);
+}
+.container{ 
+    border: 1px solid darkgrey;
+    padding: 0 30px; 
+    width: 30%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0f85d3, #e8bab5);
+    border-radius: 20px;
+ }
+.container p{
+    margin: 10px 0;
+}
+#jokesBtn{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+ button{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: #a11b5c;
+   
+} 
+button:hover{
+     background: linear-gradient(135deg, #3498db, #a11b5c); 
+     background-color: gray; 
+    
+ } 
+.btn{
+    padding: 5px 20px;
+    color: #fff;
+    background: linear-gradient(135deg, #3498db, #df1778);
+}
+.btn:hover{
+    background: linear-gradient(135deg, #313334, #e63987);
+  
+ }  
+ body{
+     background: linear-gradient(60deg, #3498db, #e74c3c); 
+     background: linear-gradient(45deg, #3498db, #e74c3c); 
+     animation: example 5s ease-in 0s infinite alternate;
+     background: linear-gradient(60deg, #2a5e6e, #240602);
+} 
+/* @keyframes example {
+    0% {
+        background: linear-gradient(60deg, #3498db, #e74c3c);
+       
+    }
+    50% {
+        background: linear-gradient(60deg, #a5bbc9, #3228c1);
+    }
+    100% {
+        background: linear-gradient(60deg, #3498db, #1d1514);
+    }
+  } */
+  
+ /* label{
+    font-size: 15px;
+    font-weight: bold;
+}
+#temDiff{
+    border: 1px solid purple;
+    background-color: #e8bab5;
+    padding: 5px;
+}
+#temNum{
+    background-color: #e8bab5;
+    padding: 5px;
+}
+#resultSpan{
+    font-weight: bold;
+}
+.btn{
+    border-radius: 10px;
+    cursor: pointer;
+    
+} 
+
+
+
+ input{
+    width: 100%;
+    height: 80px;
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+    outline: none;
+    border: none;
+    padding: 5px 0;
+    text-align: right;
+    background: transparent;
+    
+    
+}
+
+.calculator{
+    padding: 20px 10px;
+    background-color: #f6f3f3;
+    
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    
+     */
+/* button{
+    width: 50px;
+    font-size: 30px;
+    margin: 8px;
+    box-shadow: 1px 2px 3px gray;
+
+}  */
+
+
